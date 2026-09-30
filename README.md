@@ -12,7 +12,7 @@ Este projeto consiste na conversão de um modelo relacional de uma Universidade 
 
 ## 📐 Estrutura do Modelo Dimensional (Star Schema)
 
-![Diagrama Star Schema](Diagrama)
+![Diagrama Star Schema](Diagrama.png)
 
 ### Tabela Fato
 - `fato_ministracao`: Reúne as chaves substitutas (*Surrogate Keys*) e as métricas `carga_horaria`, `qtd_disciplinas`, `qtd_prerequisitos` e a flag `is_coordenador`.
